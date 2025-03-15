@@ -2153,9 +2153,9 @@ p {
   height: 280px;
   width: 200px;
   font-size: 15px;
-  background-color: #3c3c3cf3;
+  background-color: #262626f3;
   border-radius: 10px;
-  box-shadow: -1rem 0 3rem #000;
+  box-shadow: -1rem 0 1rem #6b6b6b;
   /*   margin-left: -50px; */
   transition: 0.4s ease-out;
   position: relative;
@@ -2596,7 +2596,6 @@ svg {
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
-
 .waste-container {
   width: 100%;
   display: flex;
@@ -2685,6 +2684,9 @@ svg {
   }
 }
 
+.scroll-button:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
 .scroll-button:hover {
   background: rgba(0, 0, 0, 0.8);
 }
@@ -3029,8 +3031,14 @@ svg {
   flex-direction: row;
   /* border: 1px solid #000; */
   height: 693px;
+  box-shadow: 0rem 0 10rem #979797;
+  border-radius: 6px;
+  padding: 10px;
   overflow-y: scroll;
   align-items: stretch;
+}
+.form-cell-main::-webkit-scrollbar {
+  display: none; /* Hides scrollbar in Chrome, Safari, and Edge */
 }
 
 .contact-details-stack {
